@@ -6,12 +6,10 @@
 		<table class="table">
 			<tr ng-repeat="r in list">
 				<td class="text-center">
-					<label for="{{$index}}" class="checked-{{r.checked}}"> {{r.row}} </label>
+                    <div ng-click="r.checked=!r.checked" for="{{$index}}" class="checked-{{r.checked}}">
+					 {{r.row}} </div>
 					
 				</td>
-				<td><input type="checkbox" ng-model="r.checked" id="{{$index}}"> </td>
-				<!-- <td> <input type="checkbox" ng-model="list.checked"> </td> -->
-			</tr>
 		</table>
 	</div>
 	<br/>
