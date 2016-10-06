@@ -5,12 +5,12 @@
 		var val= 3;
 
 		$scope.list = [{
-			val:1,
+			id:1,
 			row: 'TEST',
 			checked: false
 		},
 		{
-			val:2,
+			id:2,
 			row: 'Test2',
 			checked: true
 		}];
@@ -19,13 +19,13 @@
 		
 		$scope.submit = function() {
 			if ($scope.listRow) {
-				this.val += 1;
+				this.id += 1;
 				$scope.list.push({
 					row: this.listRow,
 					checked: false,
-					val: this.val
+					id: this.id
 				});
-				this.val += 1;
+				this.id += 1;
 				$scope.listRow = '';
 			}
 		};
