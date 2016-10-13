@@ -65,7 +65,7 @@ button:focus {
 -------------------------------------------------- */
 
 .content {
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: sans-serif;
     text-transform: lowercase;
     display: flex;
     flex-direction: column;
