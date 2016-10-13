@@ -71,6 +71,7 @@ button {
     margin: 0;
     vertical-align: top;
     width: 213px;
+    border-style: none;
 }
 
 /*.mainContent {
