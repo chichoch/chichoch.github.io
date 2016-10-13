@@ -13,10 +13,15 @@
 		};
         
         function newLine() {
-            var trick1 = getRandomTrick() + ' + ';
-            var trick2 = getRandomTrick() + ' + ';
-            var trick3 = getRandomTrick();
-            $scope.line = trick1 + trick2 + trick3;
+            
+            //Minimum number of trix is 1, max 7
+            var noTrix = Math.floor((Math.random() * 5));
+            var trixString = '';
+            for (var i=0; i < noTrix;i++){
+                trixString += getRandomTrick() + ' + ';
+            }
+            trixString += getRandomTrick();
+            $scope.line = trixString;
         };
             
         function getRandomTrick() {
