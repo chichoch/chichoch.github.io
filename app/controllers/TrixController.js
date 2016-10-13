@@ -1,12 +1,8 @@
 (function() {
 
-	var ListController = function ($scope, $routeParams, listFactory) {
-		//Use socket!
-        var listId = $routeParams.listId;
-        
-        $scope.listRow = '';
-		$scope.test = 'HELLOOO'
-        $scope.list = listFactory.getTricks;
+	var TrixController = function ($scope, trixFactory) {        
+        //Get list of tricks from 
+        $scope.list = trixFactory.getTricks;
         $scope.line = '';
         
         newLine();
@@ -24,13 +20,13 @@
         };
             
         function getRandomTrick() {
-            return listFactory.getTricks[Math.floor((Math.random() * listFactory.getTricks.length))].trick;
+            return trixFactory.getTricks[Math.floor((Math.random() * trixFactory.getTricks.length))].trick;
         };
         
 	};
 
-	ListController.$inject = ['$scope', '$routeParams', 'listFactory'];
+	TrixController.$inject = ['$scope', 'trixFactory'];
 
-	angular.module('listopheApp').controller('ListController', ListController);
+	angular.module('listopheApp').controller('TrixController', TrixController);
 
 })();

@@ -1,5 +1,5 @@
 (function () {
-    var listFactory = function () {
+    var trixFactory = function () {
         var factory = {};
         
         factory.getTricks = [
@@ -42,6 +42,6 @@
         return factory;
     };
     
-    angular.module('listopheApp').factory('listFactory', listFactory);
+    angular.module('listopheApp').factory('trixFactory', trixFactory);
 
 })();

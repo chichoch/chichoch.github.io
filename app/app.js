@@ -4,8 +4,8 @@
 	app.config(function($routeProvider) {
 		$routeProvider
 			.when('/' , {
-				controller: 'ListController',
-				templateUrl: 'app/views/list.html'
+				controller: 'TrixController',
+				templateUrl: 'app/views/trix.html'
 			})
 			.otherwise( { redirectTo: '/'});
 	});
