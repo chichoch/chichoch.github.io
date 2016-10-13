@@ -41,15 +41,16 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
+    position: relative;
 }
 
 .footer {
-    text-align: center;
+    /*    text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
-    margin-bottom: 10vh;
+    margin-bottom: 10vh;*/
 }
 
 .navbar {
@@ -65,25 +66,27 @@ h2 {
 }
 
 @media (max-width: 420px) {
-  h2 {
-    font-size: 20px;
-  }
+    h2 {
+        font-size: 20px;
+    }
 }
+
 
 /* Content specific styles
 -------------------------------------------------- */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
 .content {
     font-family: sans-serif;
     text-transform: lowercase;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    position: fixed;
-    height: 100%;
     padding: 0 20px;
-    width: 100%;
     overflow: hidden;
     /*margin-bottom: 100px;*/
 }
