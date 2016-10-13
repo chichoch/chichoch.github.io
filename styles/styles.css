@@ -86,7 +86,7 @@ h2 {
     font-family: sans-serif;
     text-transform: lowercase;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 9vw;
     overflow: hidden;
 }
 
@@ -104,20 +104,12 @@ h2 {
 }
 
 #trix:hover {
-    @keyframes blink-animation {
-        to {
-            visibility: hidden;
-        }
-    }
-    @-webkit-keyframes blink-animation {
-        to {
-            visibility: hidden;
-        }
-    }
-    animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    background: red;
 }
 
+#trix:active {
+    background: darkred;
+}
 
 /*.mainContent {
     text-align: center;
