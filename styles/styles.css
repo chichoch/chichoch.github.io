@@ -65,7 +65,7 @@ button:focus {
 -------------------------------------------------- */
 
 .content {
-    font-family: 'Varela Round', sans-serif;
+    font-family: sans-serif;
     text-transform: lowercase;
     display: flex;
     flex-direction: column;
