@@ -1,5 +1,5 @@
 (function () {
-    var listFactory = function ($http) {
+    var listFactory = function () {
         var factory = {};
         
         factory.getTricks = [
@@ -24,12 +24,24 @@
                 {trick: 'Gör en stall någonstans'},
                 {trick: 'SLAPPY'},
                 {trick: 'Nollie-trix!'},
-                {trick: 'Ollie över något'}
+                {trick: 'Ollie över något'},
+                {trick: 'Todd Falcon speziale'},
+                {trick: 'Nollie kickflip'},
+                {trick: 'VALFRITT TRICK'},
+                {trick: 'Ta mer fart'},
+                {trick: 'SNABBAREEEE'},
+                {trick: 'Dylan Rieder-landning (RIP)'},
+                {trick: 'Wallie'},
+                {trick: 'Bs 180 trix'},
+                {trick: 'Bs grind'},
+                {trick: 'Fs grind'},
+                {trick: 'Bs slide'},
+                {trick: 'Fs slide'},
+                {trick: 'Fakie 180 trix'}                
             ];
         return factory;
     };
-
-    listFactory.$inject = ['$http'];
+    
     angular.module('listopheApp').factory('listFactory', listFactory);
 
 })();
