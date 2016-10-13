@@ -50,6 +50,14 @@ body {
     margin-bottom: 10vh;
 }
 
+.navbar {
+    display: none;
+}
+
+button:focus {
+    outline: none;
+}
+
 /* Content specific styles
 -------------------------------------------------- */
 .content {
