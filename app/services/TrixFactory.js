@@ -37,7 +37,25 @@
                 {trick: 'Fs grind'},
                 {trick: 'Bs slide'},
                 {trick: 'Fs slide'},
-                {trick: 'Fakie 180 trix'}                
+                {trick: 'Fakie 180 trix'}, 
+                {trick: 'no push line + valfritt flattrick'},
+                {trick: 'powerslide shove it'},
+                {trick: 'no comply över något'},
+                {trick: 'rip it n sniff it'},
+                {trick: 'ben gore-it'},
+                {trick: 'ostpinne'},
+                {trick: 'valfri no comply'},
+                {trick: 'valfri no comply'},
+                {trick: 'valfri no comply'},
+                {trick: 'charlie chaplin flip'},
+                {trick: 'rätta till ett plagg mid-line'},
+                {trick: 'fixa frillan'},
+                {trick: 'nosestall/tailstall sex change'},
+                {trick: 'sex change'},
+                {trick: '3 snabba ollies'},
+                {trick: 'något från 90-talet'},
+                
+            
             ];
         return factory;
     };
