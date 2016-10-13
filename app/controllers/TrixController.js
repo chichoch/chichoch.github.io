@@ -8,7 +8,7 @@
         newLine();
         
         $scope.submit = function() {
-		      //Random gör en ny line på 3 trick.
+            //Random gör en ny line på 3 trick.
             newLine();
 		};
         
