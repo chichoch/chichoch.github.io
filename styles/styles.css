@@ -75,7 +75,7 @@ h2 {
 /* Content specific styles
 -------------------------------------------------- */
 
-.container {
+.mainContent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -88,7 +88,6 @@ h2 {
     text-align: center;
     padding: 0 20px;
     overflow: hidden;
-    /*margin-bottom: 100px;*/
 }
 
 #trix {
