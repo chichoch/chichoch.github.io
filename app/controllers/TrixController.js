@@ -18,7 +18,7 @@
             var noTrix = Math.floor((Math.random() * 4) + 2);
             var trixString = '';
             for (var i=0; i < noTrix;i++){
-                trixString += getRandomTrick() + ' + ';
+                trixString += getRandomTrick() + ' 👉 ';
             }
             trixString += getRandomTrick();
             $scope.line = trixString;
