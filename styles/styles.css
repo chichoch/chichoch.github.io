@@ -1,10 +1,10 @@
 .checked-true {
-  text-decoration: line-through;
-  color: grey;
+    text-decoration: line-through;
+    color: grey;
 }
 
 body {
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 th {
@@ -22,16 +22,18 @@ main {
 }
 
 .center {
-    text-align: center;   
+    text-align: center;
 }
 
 .delete {
-    color: red; 
+    color: red;
     cursor: pointer;
 }
 
+
 /* Sticky footer styles
 -------------------------------------------------- */
+
 html {
     position: relative;
     min-height: 100%;
@@ -58,8 +60,10 @@ button:focus {
     outline: none;
 }
 
+
 /* Content specific styles
 -------------------------------------------------- */
+
 .content {
     font-family: sans-serif;
     text-transform: lowercase;
@@ -75,14 +79,18 @@ button:focus {
 }
 
 #trix {
+    font-size: 16px;
+    color: white;
     display: inline-block;
+    border-radius: 100px;
+    background: rebeccapurple;
     height: 100px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-    width: 213px;
+    padding: 0 50px;
     border-style: none;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
+
 
 /*.mainContent {
     text-align: center;
