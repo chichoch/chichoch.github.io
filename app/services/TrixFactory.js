@@ -54,8 +54,19 @@
                 {trick: 'sex change'},
                 {trick: '3 snabba ollies'},
                 {trick: 'något från 90-talet'},
-                
-            
+	    	{trick: 'köp en tuborg och två pølse'},
+	    	{trick: 'sug i dig en pepsi'},
+	    	{trick: 'tänd en cigg'},
+	    	{trick: 'kolla din beeper'},
+	    	{trick: 'ryck upp byxan från under hälen'},
+	    	{trick: 'sudda'},
+	    	{trick: 'snabbareee'},
+	    	{trick: 'roast beef på flat'},
+	    	{trick: 'switch nollie'},
+	    	{trick: 'bs 360 (skoja)'},
+	    	{trick: 'sproing'},
+	    	{trick: 'pizza guy'},
+	    	{trick: 'obligatorisk no comply'}
             ];
         return factory;
     };
