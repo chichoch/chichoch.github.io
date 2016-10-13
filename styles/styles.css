@@ -61,6 +61,12 @@ button:focus {
 }
 
 
+@media (max-width: 420px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
 /* Content specific styles
 -------------------------------------------------- */
 
@@ -73,6 +79,7 @@ button:focus {
     text-align: center;
     position: fixed;
     height: 100%;
+    padding: 0 20px;
     width: 100%;
     overflow: hidden;
     /*margin-bottom: 100px;*/
