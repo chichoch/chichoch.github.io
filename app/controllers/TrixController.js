@@ -4,6 +4,7 @@
         //Get list of tricks from 
         $scope.list = trixFactory.getTricks;
         $scope.line = '';
+        $scope.salt = false;
         
         newLine();
         
@@ -25,7 +26,13 @@
         };
             
         function getRandomTrick() {
-            return trixFactory.getTricks[Math.floor((Math.random() * trixFactory.getTricks.length))].trick;
+            var random = Math.floor((Math.random() * trixFactory.getTricks.length));
+            if (!$scope.salt) {
+                if (trixFactory.getTricks[random].salt) {
+                    return getRandomTrick();
+                }
+            }
+            return trixFactory.getTricks[random].trick;
         };
         
 	};
