@@ -61,9 +61,8 @@ button:focus {
 /* Content specific styles
 -------------------------------------------------- */
 .content {
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
