@@ -103,14 +103,6 @@ h2 {
     text-transform: uppercase;
 }
 
-#trix:hover {
-    background: red;
-}
-
-#trix:active {
-    background: darkred;
-}
-
 /*.mainContent {
     text-align: center;
     height:100%;
