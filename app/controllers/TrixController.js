@@ -14,8 +14,8 @@
         
         function newLine() {
             
-            //Minimum number of trix is 1, max 7
-            var noTrix = Math.floor((Math.random() * 4) + 2);
+            //Minimum number of trix is 3, max 5
+            var noTrix = Math.floor((Math.random() * 3) + 2);
             var trixString = '';
             for (var i=0; i < noTrix;i++){
                 trixString += getRandomTrick() + ' 👉 ';
