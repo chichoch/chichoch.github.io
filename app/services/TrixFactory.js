@@ -75,7 +75,7 @@
             //{ trick: 'anklaga filmaren för headcut' },
             //{ trick: 'eurodisco som musikval till din edit' },
             { trick: 'bomma en cigg av en local' },
-            {// trick: 'shop homie 4 a day' },
+            //{ trick: 'shop homie 4 a day' },
             { trick: 'kiss the rail boardslide' },
             { trick: 'kiss the rail boardslide 2 fakie' },
             { trick: 'bs slide 2 fakie' },
