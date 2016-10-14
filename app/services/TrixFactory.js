@@ -92,6 +92,19 @@
             { trick: 'dra upp byxorna' },
             //{ trick: 'övertyga nån att det heter inward kickflip, inte hardflip' },
             //{ trick: 'tyck att kickbike är rätt gött ändå' },
+            { trick: 'grind @ railet' },
+            { trick: 'grind @ curb' },
+            { trick: 'ghost ride' },
+            { trick: 'slappy nose' },
+            { trick: 'maxad steeze-flip' },
+            { trick: 'trick med footplant' },
+            { trick: 'blunt' },
+            { trick: 'valfri stall' },
+            { trick: 'bs smith' },
+            { trick: 'nollie bigspin' },
+            { trick: 'flattrick utan ollie' },
+            { trick: 'pre-80s flattrick' },
+            { trick: 'freestyle trick' }, 
         ];
         return factory;
     };
