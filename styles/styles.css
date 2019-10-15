@@ -104,7 +104,7 @@ h2 {
 }
 
 #fille {
-    background-image: url("views/Filthy.png");
+    background-image: url("Filthy.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
