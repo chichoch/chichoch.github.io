@@ -103,6 +103,11 @@ h2 {
     text-transform: uppercase;
 }
 
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
 #fille {
     background: url(/app/views/Filthy.png);
     background-size: cover;
@@ -111,6 +116,7 @@ h2 {
     justify-content: center;
     height: 100vh;
     align-items: flex-end;
+    animation: mover 1s infinite  alternate;
 }
 /*.mainContent {
     text-align: center;
