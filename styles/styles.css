@@ -103,6 +103,16 @@ h2 {
     text-transform: uppercase;
 }
 
+#fille {
+    background-image: url("Filthy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-end;
+}
+
 /*.mainContent {
     text-align: center;
     height:100%;
